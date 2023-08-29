@@ -1,0 +1,270 @@
+/* navbar  */
+
+nav.navbar {
+    box-shadow: 2px 3px 8px rgba(121, 121, 121, 0.5);
+    background-color: #111111;
+}
+
+nav.navbar .d-flex a {
+    padding-right: 15px;
+}
+
+nav.navbar #navbarNav li a {
+    color: #ffffff;
+    /* color: rgb(128, 128, 128); */
+    /* text-shadow: 1px 1px 1px rgba(203, 203, 203, 0.8); */
+}
+
+nav.navbar #navbarNav li a:hover {
+    color: rgb(128, 128, 128);
+    /* color: rgb(0, 0, 0) !important; */
+}
+
+nav.navbar .container .navbar-brand {
+    text-shadow: 2px 1px 1px rgba(92, 92, 92, 0.4);
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+}
+
+nav.navbar .container .navbar-brand .satu {
+    color: #1a73da;
+}
+
+nav.navbar .container a.active {
+    /* color: black !important; */
+    color: rgb(128, 128, 128) !important;
+}
+
+
+/* nav.navbar .container .navbar-brand .dua {
+    color: #26c6da;
+} */
+
+
+/* nav.navbar .container .navbar-brand .tiga {
+    color: #ffa726;
+} */
+
+
+/* skil-satu  */
+
+section.skil-satu {
+    background-color: #ffffff;
+    min-height: 500px;
+    padding: 40px 0 40px;
+    box-shadow: 1px 5px 7px rgba(54, 54, 54, 0.2);
+    overflow: hidden;
+}
+
+section.skil-satu .design {
+    margin-top: 0px;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 0.8s ease;
+}
+
+section.skil-satu .design.muncul {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+section.skil-satu .design h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section.skil-satu .design p {
+    text-align: center;
+    color: #4e4e4e;
+}
+
+section.skil-satu .pie-chart img {
+    width: 100%;
+    height: 100%;
+}
+
+section.skil-satu .pie-chart {
+    height: 100%;
+    margin: 20px 0;
+}
+
+section.skil-satu .coder {
+    margin-top: 0px;
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 0.8s ease;
+}
+
+section.skil-satu .coder.muncul {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+section.skil-satu .coder h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section.skil-satu .coder p {
+    text-align: center;
+    color: #4e4e4e;
+}
+
+
+/* skil dua  */
+
+section.skil-dua {
+    margin-top: 10px;
+    padding: 35px 10px;
+    background-color: #fafafa;
+    min-height: 500px;
+    box-shadow: 1px 4px 6px rgba(54, 54, 54, 0.2);
+}
+
+section.skil-dua h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 2.4em;
+}
+
+section.skil-dua .myservice {
+    margin-top: 50px;
+}
+
+section.skil-dua .myservice .content {
+    padding: 40px 40px;
+    border-radius: 20px;
+    min-height: 298px;
+    background-color: #ffb108;
+    transition: 0.4s ease;
+    margin-bottom: 30px;
+}
+
+section.skil-dua .myservice .content:hover {
+    transform: translateY(-20px);
+}
+
+section.skil-dua .myservice .content h2 {
+    font-size: 25px;
+    margin-top: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #292929;
+}
+
+section.skil-dua .myservice .content p {
+    font-size: 14px;
+    margin-top: 12px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+
+/* skil tiga */
+
+section.skil-tiga {
+    margin-top: 10px;
+    min-height: 500px;
+    padding: 40px 0;
+    box-shadow: 1px 5px 7px rgba(54, 54, 54, 0.2);
+}
+
+section.skil-tiga h3 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+    color: #333333;
+    margin: 20px 0 43px;
+    font-size: 2em;
+}
+
+section.skil-tiga .chart {
+    height: 100%;
+}
+
+section.skil-tiga .chart img {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* footer  */
+
+footer {
+    margin-top: 6px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer p {
+    color: #7b7b7b;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    /* skil satu  */
+    section.skil-satu .design h2 {
+        font-size: 25px;
+    }
+    section.skil-satu .design p {
+        font-size: 14px;
+    }
+    section.skil-satu .coder h2 {
+        font-size: 25px;
+    }
+    section.skil-satu .coder p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* navbar  */
+    nav.navbar .d-flex a {
+        padding-right: 0;
+    }
+    /* skil satu  */
+    section.skil-satu .design h2 {
+        text-align: left;
+        font-size: 40px;
+    }
+    section.skil-satu .design {
+        margin-top: 55px;
+    }
+    section.skil-satu .design p {
+        text-align: left;
+        font-size: 15px;
+        color: #4e4e4e;
+    }
+    section.skil-satu .coder h2 {
+        text-align: left;
+        font-size: 40px;
+    }
+    section.skil-satu .coder {
+        margin-top: 60px;
+    }
+    section.skil-satu .coder p {
+        text-align: left;
+        font-size: 15px;
+        color: #4e4e4e;
+    }
+    /* skil dua  */
+    section.skil-dua .myservice .content {
+        min-height: 300px;
+    }
+    /* skil tiga  */
+    section.skil-tiga h3 {
+        font-size: 3em;
+    }
+    section.skil-tiga .chart img {
+        height: 100%;
+        width: 80%;
+        margin: auto;
+    }
+}

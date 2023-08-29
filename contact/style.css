@@ -1,0 +1,265 @@
+/* navbar  */
+
+nav.navbar {
+    box-shadow: 2px 3px 8px rgba(121, 121, 121, 0.5);
+    background-color: #111111;
+}
+
+nav.navbar .d-flex a {
+    padding-right: 15px;
+}
+
+nav.navbar #navbarNav li a {
+    color: #ffffff;
+    /* color: rgb(128, 128, 128); */
+    /* text-shadow: 1px 1px 1px rgba(203, 203, 203, 0.8); */
+}
+
+nav.navbar #navbarNav li a:hover {
+    color: rgb(128, 128, 128);
+    /* color: rgb(0, 0, 0) !important; */
+}
+
+nav.navbar .container .navbar-brand {
+    text-shadow: 2px 1px 1px rgba(92, 92, 92, 0.4);
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+}
+
+nav.navbar .container .navbar-brand .satu {
+    color: #1a73da;
+}
+
+nav.navbar .container a.active {
+    /* color: black !important; */
+    color: rgb(128, 128, 128) !important;
+}
+
+
+/* nav.navbar .container .navbar-brand .dua {
+    color: #26c6da;
+} */
+
+
+/* nav.navbar .container .navbar-brand .tiga {
+    color: #ffa726;
+} */
+
+
+/* contact satu  */
+
+section.contact-satu {
+    margin-top: 14px;
+    padding: 30px 0px 0;
+    background-color: #ffffff;
+    box-shadow: 1px 5px 7px rgba(54, 54, 54, 0.2);
+    min-height: 0px;
+}
+
+section.contact-satu .info {
+    margin-top: 10px;
+    padding: 0px 30px;
+    transform: translateX(-300px);
+    opacity: 0;
+    transition: 1.2s ease;
+}
+
+section.contact-satu .info.muncul {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+section.contact-satu h1 {
+    font-size: 51px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Signika', sans-serif;
+    text-shadow: 2px 2px 1px rgba(92, 92, 92, 0.4);
+}
+
+section.contact-satu p {
+    font-size: 25px;
+    font-weight: 200;
+    color: #757575;
+    margin-top: 3px;
+}
+
+section.contact-satu .info .sosmed-satu,
+section.contact-satu .info .sosmed-dua {
+    padding: 0px 16px;
+    margin-top: 27px;
+}
+
+section.contact-satu .info .sosmed-satu a {
+    text-decoration: none;
+    color: #303030;
+}
+
+section.contact-satu .info .sosmed-satu a .github {
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+section.contact-satu .info .sosmed-dua a {
+    text-decoration: none;
+    color: #3b5998;
+}
+
+section.contact-satu .info .sosmed-dua a .facebook {
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+section.contact-satu .info .sosmed-tiga,
+section.contact-satu .info .sosmed-empat {
+    padding: 0px 16px;
+    margin-top: 30px;
+}
+
+section.contact-satu .info .sosmed-tiga a {
+    text-decoration: none;
+    color: #ef0074;
+}
+
+section.contact-satu .info .sosmed-tiga a .instagram {
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+section.contact-satu .info .sosmed-empat a {
+    text-decoration: none;
+    color: #ef1a25;
+}
+
+section.contact-satu .info .sosmed-empat a .youtube {
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+section.contact-satu .img {
+    max-height: 500px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+section.contact-satu .img img {
+    width: 100%;
+}
+
+
+/* contact dua  */
+
+section.contact-dua {
+    margin-top: 14px;
+    padding: 60px 25px 30px;
+    background-color: #fafafa;
+    box-shadow: 1px 5px 7px rgba(54, 54, 54, 0.2);
+    min-height: 300px;
+}
+
+section.contact-dua .info .info1 h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-family: 'Signika', sans-serif;
+    color: #333;
+}
+
+section.contact-dua .info .info2 .wa {
+    margin-top: 30px;
+    color: rgb(206, 165, 14);
+}
+
+section.contact-dua .info .info2 span {
+    font-size: 15px;
+    margin-left: 14px;
+    color: #333;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+section.contact-dua .info .info2 .google {
+    margin-top: 15px;
+    color: rgb(206, 165, 14);
+}
+
+section.contact-dua .info3 div button {
+    margin-top: 20px;
+    padding: 5px;
+    width: 150px;
+}
+
+section.contact-dua .messege {
+    margin-top: 65px;
+}
+
+section.contact-dua .messege ::placeholder {
+    color: #8f8f8f;
+}
+
+section.contact-dua .messege input {
+    background-color: #ffffff;
+    border: 0.1px solid #969696;
+    height: 50px;
+}
+
+section.contact-dua .messege textarea {
+    background-color: #ffffff;
+    border: 0.1px solid #969696;
+}
+
+section.contact-dua .messege button {
+    margin-top: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+section.contact-dua .messege p {
+    margin-top: 8px;
+    font-size: 12px;
+    color: rgb(244, 102, 102);
+    margin-left: 35px;
+}
+
+
+/* footer  */
+
+footer {
+    margin-top: 6px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer p {
+    color: #7b7b7b;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    section.contact-dua .messege {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* navbar  */
+    nav.navbar .d-flex a {
+        padding-right: 0;
+    }
+    /* contact satu  */
+    section.contact-satu .info {
+        padding: 0px 3px;
+    }
+    section.contact-satu h1 {
+        font-size: 75px;
+    }
+    section.contact-satu .img {
+        margin-top: -41px;
+    }
+    /* contact dua  */
+    section.contact-dua .info .info1 h1 {
+        font-size: 55px;
+    }
+}

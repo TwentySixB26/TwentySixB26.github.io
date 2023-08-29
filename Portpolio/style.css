@@ -1,0 +1,282 @@
+/* navbar  */
+
+nav.navbar {
+    box-shadow: 2px 3px 8px rgba(121, 121, 121, 0.5);
+    background-color: #111111;
+}
+
+nav.navbar .d-flex a {
+    padding-right: 15px;
+}
+
+nav.navbar #navbarNav li a {
+    color: #ffffff;
+    /* color: rgb(128, 128, 128); */
+    /* text-shadow: 1px 1px 1px rgba(203, 203, 203, 0.8); */
+}
+
+nav.navbar #navbarNav li a:hover {
+    color: rgb(128, 128, 128);
+    /* color: rgb(0, 0, 0) !important; */
+}
+
+nav.navbar .container .navbar-brand {
+    text-shadow: 2px 1px 1px rgba(92, 92, 92, 0.4);
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+}
+
+nav.navbar .container .navbar-brand .satu {
+    color: #1a73da;
+}
+
+nav.navbar .container a.active {
+    /* color: black !important; */
+    color: rgb(128, 128, 128) !important;
+}
+
+
+/* nav.navbar .container .navbar-brand .dua {
+    color: #26c6da;
+} */
+
+
+/* nav.navbar .container .navbar-brand .tiga {
+    color: #ffa726;
+} */
+
+
+/* porpolio utama  */
+
+section.portpolio-utama {
+    background-color: #ffffff;
+    padding: 80px 0 50px;
+    min-height: 370px;
+}
+
+section.portpolio-utama h1 {
+    color: #333333;
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    /* text-shadow: 2px 2px 5px rgba(52, 52, 52, 0.1); */
+}
+
+section.portpolio-utama p {
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+
+/* portpolio web  */
+
+section.portpolio-web {
+    margin-top: 12px;
+    background-color: #fafafa;
+    min-height: 500px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    box-shadow: 1px 4px 6px rgba(54, 54, 54, 0.2);
+}
+
+section.portpolio-web .container h6 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #757575;
+    text-shadow: 1px 1px 5px rgba(37, 37, 37, 0.1);
+    letter-spacing: 1px;
+}
+
+section.portpolio-web .webProyek {
+    margin-top: 30px !important;
+}
+
+section.portpolio-web .webProyek .card {
+    opacity: 0;
+    transform: translate(0, -80px);
+}
+
+section.portpolio-web .webProyek .card.muncul {
+    opacity: 1;
+    transform: translate(0, 0px);
+}
+
+section.portpolio-web .webProyek .card {
+    margin-bottom: 30px !important;
+    box-shadow: 2px 3px 5px rgba(37, 37, 37, 0.4);
+    border: 2px solid black;
+    transition: 0.5s ease;
+}
+
+section.portpolio-web .container .webProyek .img {
+    overflow: hidden;
+    position: relative;
+}
+
+section.portpolio-web .container .webProyek img {
+    transition: 0.9s ease;
+}
+
+section.portpolio-web .webProyek .card:hover .img img {
+    transform: scale(1.2);
+}
+
+section.portpolio-web .webProyek .card:hover {
+    box-shadow: 6px 6px 15px rgba(37, 37, 37, 0.8);
+}
+
+section.portpolio-web .webProyek .card .img .gradImg {
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to left, rgb(26, 26, 26, 1), rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.4));
+    position: absolute;
+    z-index: 1;
+    transform: translateX(1000px);
+    transition: 0.6s ease;
+}
+
+section.portpolio-web .webProyek .card .img .judul {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #eaeaea;
+    transform: translateX(900px);
+    transition: 0.6s ease;
+    padding: 15px;
+}
+
+section.portpolio-web .webProyek .card:hover .img .judul,
+section.portpolio-web .webProyek .card:hover .img .gradImg {
+    transform: translateX(0);
+}
+
+section.portpolio-web .webProyek .card .img .judul h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(75, 75, 75, 0.4);
+}
+
+section.portpolio-web .webProyek .card .img .judul p {
+    font-weight: 200;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px rgba(75, 75, 75, 0.4);
+}
+
+
+/* portpolio vector  */
+
+section.portpolio-vector {
+    background-color: #fff;
+    min-height: 500px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 1px 4px 6px rgba(54, 54, 54, 0.2);
+}
+
+section.portpolio-vector .container h6 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #757575;
+    text-shadow: 1px 1px 5px rgba(37, 37, 37, 0.1);
+    letter-spacing: 1px;
+}
+
+section.portpolio-vector .vctr-sub {
+    margin-top: 0px;
+}
+
+section.portpolio-vector .vctr-sub h4 {
+    font-size: 2.4pc;
+    font-family: 'Gabriela', serif;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.portpolio-vector .vctr-sub p {
+    font-weight: 400;
+    color: #6d6d6d;
+    padding: 0px 12px;
+    margin-bottom: 30px;
+}
+
+section.portpolio-vector .vctr-sub .vctr-sub-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 0 0px 0 0px;
+}
+
+section.portpolio-vector .header-vctr {
+    margin-top: 60px;
+}
+
+section.portpolio-vector .vectors {
+    height: 100%;
+    margin-top: 45px;
+}
+
+section.portpolio-vector .vectors img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+section.portpolio-vector .vectors p {
+    font-size: 70%;
+    margin-top: 8px;
+}
+
+section.portpolio-vector .vectors div {
+    margin-bottom: 15px;
+}
+
+
+/* footer  */
+
+footer {
+    margin-top: 6px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer p {
+    color: #7b7b7b;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+@media (min-width: 992px) {
+    /* navbar  */
+    nav.navbar .d-flex a {
+        padding-right: 0;
+    }
+    /* portpolio web  */
+    section.portpolio-web .container h6 {
+        font-size: 18px;
+    }
+    /* portpolio vector  */
+    section.portpolio-vector .container h6 {
+        font-size: 18px;
+    }
+    section.portpolio-vector .vctr-sub h4 {
+        margin-top: 20px;
+    }
+    section.portpolio-vector .vctr-sub .vctr-sub-img img {
+        padding: 0 10px 0 10px;
+    }
+}

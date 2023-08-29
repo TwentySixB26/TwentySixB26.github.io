@@ -1,0 +1,273 @@
+/* navbar  */
+
+nav.navbar {
+    box-shadow: 2px 3px 8px rgba(121, 121, 121, 0.5);
+    background-color: #111111;
+}
+
+nav.navbar .d-flex a {
+    padding-right: 15px;
+}
+
+nav.navbar #navbarNav li a {
+    color: #ffffff;
+    /* color: rgb(128, 128, 128); */
+    /* text-shadow: 1px 1px 1px rgba(203, 203, 203, 0.8); */
+}
+
+nav.navbar #navbarNav li a:hover {
+    color: rgb(128, 128, 128);
+    /* color: rgb(0, 0, 0) !important; */
+}
+
+nav.navbar .container .navbar-brand {
+    text-shadow: 2px 1px 1px rgba(92, 92, 92, 0.4);
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+}
+
+nav.navbar .container .navbar-brand .satu {
+    color: #1a73da;
+}
+
+nav.navbar .container a.active {
+    /* color: black !important; */
+    color: rgb(128, 128, 128) !important;
+}
+
+
+/* nav.navbar .container .navbar-brand .dua {
+    color: #26c6da;
+} */
+
+
+/* nav.navbar .container .navbar-brand .tiga {
+    color: #ffa726;
+} */
+
+
+/* About -satu  */
+
+section.about-satu {
+    background-color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 1px 5px 7px rgba(54, 54, 54, 0.2);
+    padding: 20px 14px 80px;
+    overflow: hidden;
+}
+
+section.about-satu .font-aboutMe-satu {
+    margin-top: 0px;
+    opacity: 0;
+    transition: 1.2s ease;
+    transform: translateX(-300px);
+}
+
+section.about-satu .font-aboutMe-satu.muncul,
+section.about-satu .img-aboutmee-satu.muncul {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+section.about-satu .img-aboutmee-satu {
+    transform: translateX(300px);
+    opacity: 0;
+    transition: 1.2s ease;
+}
+
+section.about-satu h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Signika', sans-serif;
+    text-shadow: 2px 2px 1px rgba(92, 92, 92, 0.4);
+}
+
+section.about-satu h4 {
+    font-size: 25px;
+    font-weight: 200;
+    color: #7c7c7c;
+    font-family: 'Literata', serif;
+    margin-bottom: 20px;
+}
+
+section.about-satu p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #3d3d3d;
+}
+
+section.about-satu img {
+    /* border: 5px solid black; */
+    margin-top: 30px;
+    filter: blur(0.4px);
+}
+
+
+/* about dua  */
+
+section.about-dua {
+    background-color: #fafafa;
+    margin-top: 14px;
+    padding: 60px 15px 60px;
+    box-shadow: 1px 1px 3px rgba(54, 54, 54, 0.2);
+}
+
+section.about-dua .img-aboutmee-dua {
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 50px;
+    /* border: 4px solid #333333; */
+}
+
+section.about-dua .img-aboutmee-dua img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease;
+}
+
+section.about-dua .img-aboutmee-dua:hover img {
+    transform: scale(1.2);
+}
+
+section.about-dua .font-aboutmee-dua {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+section.about-dua .font-aboutmee-dua h3 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 21px;
+    font-size: 30px;
+}
+
+section.about-dua .font-aboutmee-dua span {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(243, 124, 40);
+}
+
+section.about-dua .font-aboutmee-dua p {
+    margin-bottom: 18px;
+    color: #444;
+    font-weight: 400;
+}
+
+
+/* about tiga  */
+
+section.about-tiga {
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 15px 13px 50px;
+    box-shadow: 1px 4px 6px rgba(54, 54, 54, 0.2);
+}
+
+section.about-tiga .img-about-mee {
+    display: flex;
+    gap: 14px;
+    height: 100%;
+    padding: 0 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+section.about-tiga .img-about-mee img {
+    width: 13%;
+    height: 100%;
+    opacity: 0;
+    transform: translateY(-120px);
+}
+
+section.about-tiga .img-about-mee img.muncul2 {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 0.5s ease;
+}
+
+section.about-tiga .img-about-mee img:nth-child(2),
+section.about-tiga .img-about-mee img:nth-child(5) {
+    margin-top: 13.3%;
+}
+
+section.about-tiga .img-about-mee img:nth-child(1),
+section.about-tiga .img-about-mee img:nth-child(6) {
+    margin-top: 26.3%;
+}
+
+section.about-tiga .font-aboutmee-tiga h3 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 25px;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+section.about-tiga .font-aboutmee-tiga p {
+    color: #3d3d3d;
+    margin-bottom: 1px;
+}
+
+section.about-tiga .font-aboutmee-tiga h6 {
+    color: #7d7d7d;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Average', serif;
+    font-size: 0.9pc;
+}
+
+
+/* footer  */
+
+footer {
+    margin-top: 6px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer p {
+    color: #7b7b7b;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+@media (min-width: 992px) {
+    /* navbar  */
+    nav.navbar .d-flex a {
+        padding-right: 0;
+    }
+    /* aboutmee-satu  */
+    section.about-satu .font-aboutMe-satu {
+        margin-top: 45px;
+    }
+    section.about-satu img {
+        margin-top: 0px;
+    }
+    /* about mee dua  */
+    section.about-dua .img-aboutmee-dua {
+        height: 400px;
+        margin-bottom: 0px;
+    }
+    /* about me tiga  */
+    section.about-tiga .img-about-mee {
+        margin-bottom: 0;
+    }
+    section.about-tiga .img-about-mee img {
+        width: 12%;
+    }
+    section.about-tiga .img-about-mee img:nth-child(2),
+    section.about-tiga .img-about-mee img:nth-child(5) {
+        margin-top: 10.4%;
+    }
+    section.about-tiga .img-about-mee img:nth-child(1),
+    section.about-tiga .img-about-mee img:nth-child(6) {
+        margin-top: 20.8%;
+    }
+    section.about-tiga .font-aboutmee-tiga h3 {
+        margin-top: 30px;
+    }
+}

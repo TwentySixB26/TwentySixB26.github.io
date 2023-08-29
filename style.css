@@ -1,0 +1,223 @@
+/* navbar  */
+
+nav.navbar .d-flex a {
+    padding-right: 15px;
+}
+
+nav.navbar #navbarNav li a {
+    color: rgb(128, 128, 128) !important;
+    /* text-shadow: 1px 1px 1px rgba(203, 203, 203, 0.8); */
+}
+
+nav.navbar #navbarNav li a:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+nav.navbar .container .navbar-brand {
+    text-shadow: 2px 1px 1px rgba(92, 92, 92, 0.4);
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+}
+
+nav.navbar .container .navbar-brand .satu {
+    color: #1a73da;
+}
+
+
+/* nav.navbar .container .navbar-brand .dua {
+    color: #26c6da;
+} */
+
+
+/* nav.navbar .container .navbar-brand .tiga {
+    color: #ffa726;
+} */
+
+
+/* jumbotron  */
+
+section .jumbotron {
+    min-height: 330px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: -7px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url(img/mee-3.png);
+    box-shadow: 1px 6px 8px rgba(54, 54, 54, 0.2);
+    background-color: #ffffff;
+}
+
+
+/* proyek  */
+
+section.proyek {
+    margin-top: 12px;
+    background-color: #fafafa;
+    min-height: 500px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    box-shadow: 1px 4px 6px rgba(54, 54, 54, 0.2);
+}
+
+section.proyek .container h6 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #757575;
+    text-shadow: 1px 1px 5px rgba(37, 37, 37, 0.1);
+    letter-spacing: 1px;
+}
+
+section.proyek .webProyek {
+    margin-top: 25px !important;
+}
+
+section.proyek .webProyek .card {
+    opacity: 0;
+    transform: translate(0, -80px);
+}
+
+section.proyek .webProyek .card.muncul {
+    opacity: 1;
+    transform: translate(0, 0px);
+}
+
+section.proyek .webProyek .card {
+    margin-bottom: 30px !important;
+    box-shadow: 2px 3px 5px rgba(37, 37, 37, 0.4);
+    border: 2px solid black;
+    transition: 0.5s ease;
+}
+
+section.proyek .container .webProyek .img {
+    overflow: hidden;
+    position: relative;
+}
+
+section.proyek .container .webProyek img {
+    transition: 0.9s ease;
+}
+
+section.proyek .webProyek .card:hover .img img {
+    transform: scale(1.2);
+}
+
+section.proyek .webProyek .card:hover {
+    box-shadow: 6px 6px 15px rgba(37, 37, 37, 0.8);
+}
+
+section.proyek .webProyek .card .img .gradImg {
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to left, rgb(26, 26, 26, 1), rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.4));
+    position: absolute;
+    z-index: 1;
+    transform: translateX(1000px);
+    transition: 0.6s ease;
+}
+
+section.proyek .webProyek .card .img .judul {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #eaeaea;
+    transform: translateX(900px);
+    transition: 0.6s ease;
+    padding: 15px;
+}
+
+section.proyek .webProyek .card:hover .img .judul,
+section.proyek .webProyek .card:hover .img .gradImg {
+    transform: translateX(0);
+}
+
+section.proyek .webProyek .card .img .judul h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(75, 75, 75, 0.4);
+}
+
+section.proyek .webProyek .card .img .judul p {
+    font-weight: 200;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px rgba(75, 75, 75, 0.4);
+}
+
+
+/* footer  */
+
+footer {
+    margin-top: 6px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer p {
+    color: #7b7b7b;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+@media (max-width: 320px) {
+    /* jumbotron  */
+    section .jumbotron {
+        margin-top: 0px;
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 476px) {
+    /* jumbotron  */
+    section .jumbotron {
+        margin-top: 0px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 576px) {
+    /* jumbotron  */
+    section .jumbotron {
+        margin-top: -10px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* navbar  */
+    nav.navbar .d-flex a {
+        padding-right: 0;
+    }
+    /* jumbotron  */
+    section .jumbotron {
+        margin-top: -20px;
+        height: 600px;
+    }
+    /* proyek  */
+    section.proyek .container h6 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* jumbotron  */
+    section .jumbotron {
+        margin-top: -20px;
+        height: 680px;
+    }
+}
